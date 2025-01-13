@@ -1,0 +1,27 @@
+[tool.poetry]
+package-mode = false
+name = "android"
+version = "0.1.0"
+description = ""
+authors = ["Marco Lamina <mlamina09@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.3.14"
+transformers = "^4.48.0"
+huggingface-hub = "^0.27.1"
+torch = "^2.5.1"
+langchain-community = "^0.3.14"
+pillow = "^11.1.0"
+openai = "^1.59.6"
+uiautomator2 = "^3.2.8"
+langchain-openai = "^0.3.0"
+accelerate = "^1.2.1"
+sentencepiece = "^0.2.0"
+protobuf = "^5.29.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
